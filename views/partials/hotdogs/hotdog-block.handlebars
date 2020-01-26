@@ -1,0 +1,12 @@
+<li>
+	<h5 class="fl mid font">{{hotdog_name}}</h6>
+
+	<div>
+		<button class="btn btn-warning change-eaten fr" data-id="{{id}}" data-devoured="{{devoured}}">
+			{{#if devoured}}UNEAT?{{else}}EAT?{{/if}}
+		</button>
+	</div>
+	<div>
+		<button class="btn btn-danger delete-hotdog fr" data-id="{{this.id}}">DELETE</button>
+	</div>
+</li>

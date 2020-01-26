@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS hotdogs_db;
+
+CREATE DATABASE hotdogs_db;
+USE hotdogs_db;
+
+CREATE TABLE hotdogs (
+	id int NOT NULL AUTO_INCREMENT,
+	hotdog_name VARCHAR(30) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY	(id)
+);

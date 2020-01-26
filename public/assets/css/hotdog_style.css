@@ -1,0 +1,82 @@
+.mid {
+	margin: auto auto;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.font {
+  font-family: 'Lobster', cursive;
+}
+
+.round {
+  border-radius: 25px;
+}
+
+.heading {
+  text-align: center;
+  background-color: #ffefae;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  padding: 0px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.img {
+	width: auto;
+	height: 300px;
+}
+
+ol {
+	padding-left: 16px;
+}
+
+li {
+  padding: 5px;
+  margin: auto;
+  margin-left: 0px;
+  overflow: auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+  margin-right: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.ketchup {
+	background-color: #ffdcd3;
+}
+
+.mustard {
+	background-color: #ffefae;
+}
+
+.make {
+  background-color: #dbffca; 
+  padding: 10px 0px;
+}
+
